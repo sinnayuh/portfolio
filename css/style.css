@@ -1,0 +1,121 @@
+#music-control {
+    position: absolute;
+}
+
+#landing, #content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing {
+    font-size: 13px;
+    color: #414141;
+}
+
+#landing p:hover {
+    color: #797979;
+    cursor: pointer;
+}
+
+#content div {
+  text-align: center;
+}
+
+#pattern {
+    background: transparent url('https://sinister.codes/asset/background/dot.png') repeat 0 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 1;
+}
+
+#pattern,
+#video-overlay {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#video-control {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: .5
+}
+
+.title:hover {
+    font-weight: bold;
+    font-size: 24px;
+    opacity: 1;
+}
+
+.description {
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: .4
+}
+
+.description:hover {
+    font-size: 14px;
+    opacity: 1;
+}
+
+.typewriter {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: .4;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.typewriter:hover {
+    font-size: 16px;
+    opacity: 1;
+}
+
+.link {
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: .4
+}
+
+.link:hover {
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+html, body {
+    margin: 0;
+    background: #171717;
+    color: #FFFFFF;
+    font-family: 'Consolas', sans-serif;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.hidden {
+    display: none !important;
+}
