@@ -6,9 +6,7 @@ function type() {
     const phrases = [
         "i have two rules. rule one: im always right. rule two: if im wrong, refer to rule one",
         "cash is king, fym",
-        "do sum about ur spoofer issues",
         "i see it, i want it, i click it",
-        "just charge it bro",
         "stop talking your dead",
         "she cheat, i cheat, we even",
         "get yo money up not yo funny up",
@@ -25,10 +23,10 @@ function type() {
         "three for a oner? party on",
         "if life gets tough, bang fraud",
         "paypal transfers, cloned cards, prepaids @me",
-        "1 sit nn dog",
-        "api.sinister.codes",
-        "connect 51.210.222.67:27015",
-        "eat, sleep, code, repeat"
+        "eat, sleep, code, repeat",
+        "money swollen like cyst",
+        "aim for the chest and higher",
+        "ran up the numbers like it was scrimmage"
     ]
 
     typewriter.typeString(phrases[getRandomInt(phrases.length)]).pauseFor(5000).deleteAll().pauseFor(100).callFunction(() => {

@@ -10,9 +10,32 @@
     align-items: center;
 }
 
+.overlay_part{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 0.4s;
+}
+
 #landing {
     font-size: 13px;
     color: #414141;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.item__container{
+    border-radius: .5rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgba(27, 27, 27, 0.171);
+    box-shadow: 0 0 16px rgba(32, 32, 32, 0.123);
+    backdrop-filter: blur(5px);
 }
 
 #landing p:hover {
@@ -25,7 +48,7 @@
 }
 
 #pattern {
-    background: transparent url('https://sinister.codes/asset/background/dot.png') repeat 0 0;
+    background: transparent url('../asset/background/dot.png') repeat 0 0;
     top: 0;
     left: 0;
     margin: 0;
@@ -40,7 +63,7 @@
   min-height: 100vh;
   position: absolute;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #video-control {
@@ -100,6 +123,7 @@
 }
 
 html, body {
+    height: 100vh;
     margin: 0;
     background: #171717;
     color: #FFFFFF;
@@ -117,5 +141,6 @@ p {
 }
 
 .hidden {
+    opacity: 0;
     display: none !important;
 }
